@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation test suit for capsule crm" duration-ms="12752" started-at="2021-09-18T19:22:07Z" finished-at="2021-09-18T19:22:20Z">
+    <groups>
+    </groups>
+    <test name="Creating and validating Person" duration-ms="12752" started-at="2021-09-18T19:22:07Z" finished-at="2021-09-18T19:22:20Z">
+      <class name="com.CRM.testcases.PartiesPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.CRM.testcases.PartiesPageTest@458ad742]" name="setup" is-config="true" duration-ms="3025" started-at="2021-09-18T19:22:11Z" finished-at="2021-09-18T19:22:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifying_new_user_creation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.CRM.testcases.PartiesPageTest@458ad742]" name="verifying_new_user_creation" duration-ms="2434" started-at="2021-09-18T19:22:14Z" data-provider="create_user" finished-at="2021-09-18T19:22:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tom]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[eric]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[QA lead]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[lead]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[tom@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifying_new_user_creation -->
+        <test-method status="PASS" signature="verifying_new_case_creation()[pri:2, instance:com.CRM.testcases.PartiesPageTest@458ad742]" name="verifying_new_case_creation" duration-ms="2434" started-at="2021-09-18T19:22:16Z" finished-at="2021-09-18T19:22:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifying_new_case_creation -->
+        <test-method status="PASS" signature="verifying_case_creation_for_user()[pri:3, instance:com.CRM.testcases.PartiesPageTest@458ad742]" name="verifying_case_creation_for_user" duration-ms="37" started-at="2021-09-18T19:22:19Z" finished-at="2021-09-18T19:22:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifying_case_creation_for_user -->
+        <test-method status="PASS" signature="verifying_case_status()[pri:4, instance:com.CRM.testcases.PartiesPageTest@458ad742]" name="verifying_case_status" duration-ms="30" started-at="2021-09-18T19:22:19Z" finished-at="2021-09-18T19:22:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifying_case_status -->
+      </class> <!-- com.CRM.testcases.PartiesPageTest -->
+      <class name="com.CRM.testcases.TestSetup">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.CRM.testcases.TestSetup@2344fc66]" name="beforeSuite" is-config="true" duration-ms="102" started-at="2021-09-18T19:22:07Z" finished-at="2021-09-18T19:22:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.CRM.testcases.TestSetup@2344fc66]" name="beforeTest" is-config="true" duration-ms="3577" started-at="2021-09-18T19:22:07Z" finished-at="2021-09-18T19:22:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.CRM.testcases.TestSetup@2344fc66]" name="afterTest" is-config="true" duration-ms="719" started-at="2021-09-18T19:22:19Z" finished-at="2021-09-18T19:22:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.CRM.testcases.TestSetup@2344fc66]" name="afterSuite" is-config="true" duration-ms="198" started-at="2021-09-18T19:22:20Z" finished-at="2021-09-18T19:22:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.CRM.testcases.TestSetup -->
+    </test> <!-- Creating and validating Person -->
+  </suite> <!-- Automation test suit for capsule crm -->
+</testng-results>

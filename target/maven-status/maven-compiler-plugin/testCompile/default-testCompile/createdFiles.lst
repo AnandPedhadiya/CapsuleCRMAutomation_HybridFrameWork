@@ -1,0 +1,3 @@
+com\CRM\testcases\AccountSettingPageTest.class
+com\CRM\testcases\PartiesPageTest.class
+com\CRM\testcases\TestSetup.class

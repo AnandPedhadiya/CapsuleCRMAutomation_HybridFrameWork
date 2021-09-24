@@ -26,7 +26,7 @@ Maven Java Project / Maven Wrapper
 -----
 This project is written in Java and tests can be executed using Maven commands. 
 
-    ./mvnw clean install
+    ./mvn clean install
 
 Page Object Model
 -----
